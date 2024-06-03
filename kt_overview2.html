@@ -342,6 +342,7 @@
                 <div id="scroll-seemore">
                    
                 </div>
+                <div id="horizontal-img-scroll-container">
                 <div id="horizontal-img-scroll">
                 <div>
                 <img src="./images/c3_p.jpg">
@@ -361,6 +362,7 @@
                 </div>
                 <img src="./images/IIT.jpg">
                 <img src="./images/c2_p.jpg">
+                </div>
                 </div>
 
 
@@ -446,15 +448,15 @@
                 <h2 style="margin-top: 70px; margin-bottom: 120px;">Design Collaboration</h2>
             </div>
 
-            <div class="slick-carousel" style="margin-top: -120px;">
+            <div class="anni-carousel" style="margin-top: -120px;z-index: 100;">
                 <div>
             <img id="left-half-img" src="./images/Anni-Albers(Photographer Nancy Newhall).jpg">
             <div style="width: 60%; display: inline-flex;">
             <p id="carousel-caption">In 1951, Florence Knoll invited Albers to collaborate with the Knoll Textiles Department,<em>Knoll Archives</em></p>
 
             <div id="arrows" class="slick-controls-two">
-                <button class="prevarrow">←</button>
-                <button class="nextarrow">→</button>
+                <button class="anni-prevarrow">←</button>
+                <button class="anni-nextarrow">→</button>
                 </div>
                 </div>
             </div>
@@ -464,8 +466,8 @@
             <p id="carousel-caption"><em>Eclat</em> by Anni Albers for Knoll Textiles</p>
             
             <div id="arrows" class="slick-controls-two">
-                <button class="prevarrow">←</button>
-                <button class="nextarrow">→</button>
+                <button class="anni-prevarrow">←</button>
+                <button class="anni-nextarrow">→</button>
                 </div>
             </div>
             </div>
@@ -502,6 +504,7 @@
                 <div id="scroll-seemore">
 
                 </div>
+                <div id="horizontal-img-scroll-container">
                 <div id="horizontal-img-scroll-two">
                 <div>
                 <img src="./images/noemi_raymond.jpg">
@@ -534,6 +537,7 @@
                 <div>
                 <img src="./images/nylon_homespun.jpg">
                 <p id="caption">Nylon Homespun by Suzanne Huguenin ca.1965, for Knoll Textiles</p>
+                </div>
                 </div>
                 </div>
 
@@ -823,7 +827,7 @@
 gsap.registerPlugin(ScrollTrigger);
 gsap.to("#horizontal-img-scroll", {
     xPercent: -280,
-    x: () => innerWidth,
+    x: () => "58vw",
     ease: "sine",
     scrollTrigger: {
         trigger:"#horizontal-img-scroll",
@@ -832,12 +836,23 @@ gsap.to("#horizontal-img-scroll", {
         scrub: true,
         pin: true,
         invalidateOnRefresh: true,
-        anticipatePin: 1
+        anticipatePin: 1,
+        onUpdate: self => {
+            // Calculate the progress of the animation (0 to 1)
+            let progress = self.progress;
+
+            // Determine the z-index based on the progress
+            // For example, change z-index to 10 when the animation is in progress
+            let zIndex = progress > 0 ? -100 : -1;
+
+            // Update the z-index of the animated element
+            gsap.set("#horizontal-img-scroll", { zIndex: zIndex });
+        }
     }
 });
 gsap.to("#horizontal-img-scroll-two", {
     xPercent: -322,
-    x: () => innerWidth,
+    x: () => "52vw",
     ease: "sine",
     scrollTrigger: {
         trigger:"#horizontal-img-scroll-two",
@@ -902,7 +917,7 @@ new ScrollMagic.Scene({
   .setTween(animationtwo)
   .addTo(controller);
 
-  $('.anni-slick').slick({
+  $('.anni-carousel').slick({
   infinite: true,
   slidesToShow: 1, // Shows a three slides at a time
   slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
