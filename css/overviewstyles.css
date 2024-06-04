@@ -49,6 +49,10 @@
 }
 
 
+.companyoverview{
+ overflow-x: hidden !important;
+ }
+
 
 h1{
     font-size: 8em;
@@ -58,7 +62,7 @@ h1{
 h2{
     font-size: 120px;
     font-family: 'KTFold-Medium';
-    color: #875e16;
+    color: #c66818;
     letter-spacing: -0.3rem;
 }
 
@@ -98,30 +102,12 @@ em{
     overflow-x: hidden;
 }
 
-.horizontal-scrolling-items {
-    display: flex;
-    width: 2600px;
-    padding-top: 60px;
-    animation-name: infiniteScroll;
-    animation-duration: 22s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-  }
-
-  .horizontal-scrolling-items__item {
-    white-space: nowrap;
-  }
-
-  @keyframes infiniteScroll {
-    from {transform: translateX(0)}
-    to {transform: translateX(-50%)}
-  }
 
   .callout-text{
     font-size: 34px;
     font-family: 'KTFold-Medium';
     line-height: 1.2;
-    color: #875e16;
+    color: #c66818;
     margin-top: 100px;
     margin-bottom: 100px;
     width: 70%;
@@ -131,7 +117,7 @@ em{
     font-size: 34px;
     font-family: 'KTFold-Medium';
     line-height: 1.3;
-    color: #875e16;
+    color: #c66818;
     margin-top: 150px;
     margin-bottom: 100px;
     width: 70%;
@@ -144,7 +130,7 @@ em{
     font-family: 'KTFold-Medium';
     margin-top: 150px;
     margin-bottom: 15px;
-    width: 100%;
+    width: 100%;;
   }
 
   #caption{
@@ -274,7 +260,7 @@ font-family: 'KTFold-Regular';
   }
 
   #year-rule{
-    background-color: #875e16;
+    background-color: #c66818;
     display: block;
     width: 100%;
     height: 20px;
@@ -287,14 +273,14 @@ font-family: 'KTFold-Regular';
   }
 
   #full-width-rule{
-    background-color: #875e16;
+    background-color: #c66818;
     display: block;
     width: 100%;
     height: 10px;
   }
 
   #quote-rule-left{
-    background-color: #875e16;
+    background-color: #c66818;
     display: block;
     width: 98%;
     height: 2px;
@@ -302,7 +288,7 @@ font-family: 'KTFold-Regular';
   }
   
   #quote-rule-right{
-    background-color: #875e16;
+    background-color: #c66818;
     display: block;
     width: 98%;
     height: 2px;
@@ -439,33 +425,35 @@ font-family: 'KTFold-Regular';
     margin-top: 0px;
   }
 
-  .container{
-    z-index: -100;
-  }
 
   #horizontal-img-scroll{
     width: 100%;
     height: 80vh;
     display: flex;
     flex-wrap: nowrap;
+    position: relative;
     padding-bottom: 50px;
     margin-bottom: 100px;
-    z-index: -10;
   }
 
-  #horizontal-img-scroll-container{
+  #scroll-container{
+    overflow-x: hidden !important;
     width: 100% !important;
-    overflow-x: hidden;
-    z-index: 100;
   }
+
+  #scroll-container-two{
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    width: 100% !important;
+  }
+  
 
   #horizontal-img-scroll-two{
     width: 100%;
     height: 80vh;
-    /* overflow-x: scroll;
-    overflow-y: hidden; */
     display: flex;
     flex-wrap: nowrap;
+    position: relative;
     padding-bottom: 50px;
     margin-bottom: 100px;
   }
