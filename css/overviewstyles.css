@@ -649,12 +649,6 @@ background-color: transparent;
           height: 0vh;
         }
         
-        .callout-text{
-          width: 100%;
-          margin-bottom: 0;
-          margin-top: 0;
-        }
-        
         
         }
         
@@ -676,8 +670,9 @@ background-color: transparent;
           .callout-text{
             font-size: 18px;
             line-height: 1.3;
-            margin-top: 8vh;
-            margin-bottom: 0;
+            margin-top: 5vh;
+            width: 100%;
+            margin-bottom: 5vh;
           }
 
           .callout-text-right{
@@ -685,7 +680,8 @@ background-color: transparent;
             line-height: 1.3;
             width: 100%;
             margin-left: 0;
-            margin-top: 8vh;
+            margin-top: 5vh;
+            margin-bottom: 5vh;
           }
 
           .callout-margin{
@@ -695,6 +691,7 @@ background-color: transparent;
           h2{
             font-size: 48px;
             margin-top: 3vh !important;
+            letter-spacing: normal;
       
           }
 
@@ -752,24 +749,28 @@ background-color: transparent;
             width: 100%;
             margin-left: 0;
             margin-top: 10vh;
+            display: block;
           }
 
           #medium-img-left{
             width: 100%;
             margin-left: 0;
             margin-top: 10vh;
+            display: block;
           }
 
           #large-img-right{
             width: 100%;
             margin-top: 5vh;
             margin-left: 0;
+            display: block;
           }
 
           #full-width{
             width: 100%;
             margin-top: 5vh !important;
             margin-bottom: 0;
+            display: block;
           }
 
         .slick-carousel{
@@ -786,6 +787,7 @@ background-color: transparent;
         #full-width-img{
           margin-top: 5vh;
           margin-bottom: 0;
+          display: block;
         }
 
         #full-width-carousel img{
@@ -800,6 +802,8 @@ background-color: transparent;
 
         #section-header{
           margin-top: 10vh !important;
+          margin-bottom: 10px !important;
+          height: 5vh;
         }
 
         .page-breaker{
