@@ -261,18 +261,6 @@ font-family: 'KTFold-Regular';
     vertical-align: top;
   }
 
-  #year-rule{
-    background-color: #f99f00;
-    display: block;
-    width: 100%;
-    height: 20px;
-  }
-
-  .year-rule-header{
-    position: sticky;
-    top: 0;
-    z-index: 0;
-  }
 
   #full-width-rule{
     background-color: #f99f00;
@@ -637,21 +625,86 @@ background-color: transparent;
 
 
       @media only screen and  (max-width: 1256px) {
-        #scroll-container{
-          height: 30vh;
+
+        h2{
+          font-size: 80px;
         }
         
-        #horizontal-img-scroll img{
-          height: 50%;
+        #horizontal-img-scroll{
+          height: 60vh;
+
         }
-        
+
+        #horizontal-img-scroll-two{
+          height: 65vh;
+        }
+
         #scroll-seemore{
-          height: 0vh;
+          height: 20vh;
+          margin-top: 3vh;
+        }
+
+        #scroll-container{
+          max-height: 85vh !important;
+          overflow-y: hidden;
         }
         
-        
+        .callout-text{
+          font-size: 24px;
+          line-height: 1.3;
+          margin-top: 10vh;
+          width: 90%;
+          margin-bottom: 5vh;
         }
-        
+
+        .callout-text-right{
+          font-size: 24px;
+          line-height: 1.3;
+          width: 90%;
+          margin-left: 0;
+          margin-top: 10vh;
+          margin-bottom: 5vh;
+        }
+
+        #full-width-carousel img{
+          height: 100%;
+        }
+
+        #full-width-carousel{
+          margin-bottom: 0;
+        }
+
+        #section-title{
+          margin-top: 40px !important;
+        }
+
+        #left-half-img{
+          margin-top: 5vh;
+        }
+
+        #medium-img-left{
+          margin-top: 0 !important;
+        }
+
+        #medium-img-right{
+          margin-top: 0 !important;
+        }
+
+        #full-width{
+          margin-bottom: 5vh;
+          margin-top: 5vh !important;
+        }
+
+        #section-header{
+          margin-top: 10vh !important;
+          height: 22vh;
+        }
+
+        #right-half-img{
+          margin-top: 3vh;
+        }
+
+      }
 
         @media only screen and (max-width: 576px) {
 
@@ -785,6 +838,7 @@ background-color: transparent;
 
         #moma-carousel img{
           width: 100%;
+          height: 100%;
         }
 
         #full-width-img{
@@ -795,10 +849,12 @@ background-color: transparent;
 
         #full-width-carousel img{
           width: 100%;
+          height: 100%;
         }
 
         #full-width-carousel{
           margin-top: 5vh;
+          margin-bottom: 30vh;
           width: 100%;
           margin-left: 0;
         }
@@ -810,7 +866,12 @@ background-color: transparent;
         }
 
         .page-breaker{
-          min-height: 30vh;
-          margin-top: 5vh;
+      display: none;
+      height: 0 !important;
+        }
+
+        .page-breaker-two{
+      display: none;
+      height: 0 !important;
         }
       }
