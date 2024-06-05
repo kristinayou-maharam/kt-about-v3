@@ -49,6 +49,8 @@
 }
 
 
+
+
 .companyoverview{
  overflow-x: hidden !important;
  }
@@ -633,6 +635,177 @@ background-color: transparent;
         text-decoration: underline;
       }
 
-      .simpleParallax{
-        height: 100%;
+
+      @media only screen and  (max-width: 1256px) {
+        #scroll-container{
+          height: 30vh;
+        }
+        
+        #horizontal-img-scroll img{
+          height: 50%;
+        }
+        
+        #scroll-seemore{
+          height: 0vh;
+        }
+        
+        .callout-text{
+          width: 100%;
+          margin-bottom: 0;
+          margin-top: 0;
+        }
+        
+        
+        }
+        
+
+        @media only screen and (max-width: 576px) {
+
+          .pin-spacer{
+            height: 100vh;
+          }
+
+          #horizontal-img-scroll-two{
+          margin-top: 0 !important;
+          }
+
+          #horizontal-img-scroll-two img{
+            height: 50%;
+          }
+
+          .callout-text{
+            font-size: 18px;
+            line-height: 1.3;
+            margin-top: 8vh;
+            margin-bottom: 0;
+          }
+
+          .callout-text-right{
+            font-size: 18px;
+            line-height: 1.3;
+            width: 100%;
+            margin-left: 0;
+            margin-top: 8vh;
+          }
+
+          .callout-margin{
+            margin-top: 45vh !important;
+          }
+
+          h2{
+            font-size: 48px;
+            margin-top: 3vh !important;
+      
+          }
+
+          #left-half-img{
+            width: 100%;
+            margin-top: 5vh;
+            display: inline-block;
+          }
+
+          #right-half-img{
+            width: 100%;
+            margin-left: 0;
+            margin-top: 5vh;
+            display: inline-block;
+          }
+
+          
+
+          #arrows{
+            width: 20vw;
+          }
+
+          #caption{
+            width: 100% !important;
+            margin-left: 0 !important;
+            margin-top: 8px;
+    
+          }
+
+          #caption-right{
+            width: 100% !important;
+            margin-left: 0;
+            margin-top: 8px;
+          }
+
+          #carousel-caption{
+            width: 100% !important;
+            margin-left: 0 !important;
+          }
+
+          #anni-caption{
+            width: 100% !important;
+          }
+
+          #sheila-caption{
+            width: 100% !important;
+            margin-left: 0 !important;
+          }
+
+          #moma-caption{
+            width: 100% !important;
+          }
+
+          #medium-img-right{
+            width: 100%;
+            margin-left: 0;
+            margin-top: 10vh;
+          }
+
+          #medium-img-left{
+            width: 100%;
+            margin-left: 0;
+            margin-top: 10vh;
+          }
+
+          #large-img-right{
+            width: 100%;
+            margin-top: 5vh;
+            margin-left: 0;
+          }
+
+          #full-width{
+            width: 100%;
+            margin-top: 5vh !important;
+            margin-bottom: 0;
+          }
+
+        .slick-carousel{
+            width: 100%;
+            height: 20vh;
+            margin-top: 0 !important;
+          }
+
+        #moma-carousel img{
+          width: 100%;
+          height: 30vh;
+        }
+
+        #full-width-img{
+          margin-top: 5vh;
+          margin-bottom: 0;
+          height: 30vh;
+        }
+
+        #full-width-carousel img{
+          height: 30vh;
+          width: 100%;
+        }
+
+        #full-width-carousel{
+          margin-top: 5vh;
+          width: 100%;
+          margin-left: 0;
+        }
+
+        #section-header{
+          margin-top: 10vh !important;
+        }
+
+        .page-breaker{
+          min-height: 30vh;
+          margin-top: 5vh;
+        }
       }
