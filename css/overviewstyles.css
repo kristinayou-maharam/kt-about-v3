@@ -779,6 +779,10 @@ background-color: transparent;
             margin-top: 0 !important;
           }
 
+        #moma-carousel{
+          height: 20vh;
+        }
+
         #moma-carousel img{
           width: 100%;
         }
