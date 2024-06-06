@@ -68,6 +68,12 @@ h2{
     letter-spacing: -0.3rem;
 }
 
+h6{
+  font-family: 'KTFold-Regular';
+  font-size: 10px;
+  display: block;
+}
+
 
 hr{
     stroke-width: 5px;
@@ -130,7 +136,7 @@ em{
     display: block;
     font-size: 12px;
     font-family: 'KTFold-Medium';
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 15px;
     width: 100%;;
   }
@@ -140,7 +146,7 @@ em{
     font-size: 14px;
     margin-top: 10px;
     display: inline-block;
-    width: 70%;
+    width: 75%;
   }
 
   #carousel-caption{
@@ -387,14 +393,14 @@ font-family: 'KTFold-Regular';
   }
 
   #left-half-img{
-    width: 49%;
+    width: 46%;
     margin-top: 100px;
     display: inline-block;
   }
 
   #right-half-img{
-    width: 49%;
-    margin-left: 55%;
+    width: 46%;
+    margin-left: 53%;
     margin-top: 150px;
     display: inline-block;
   }
