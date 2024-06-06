@@ -139,7 +139,7 @@ em{
     font-family: 'KTFold-Regular';
     font-size: 14px;
     margin-top: 10px;
-    display: block;
+    display: inline-block;
     width: 70%;
   }
 
@@ -164,7 +164,7 @@ em{
     font-size: 14px;
     margin-top: 10px;
     margin-left: 52%;
-    display: block;
+    display: inline-block;
     width: 70%;
   }
 
@@ -394,7 +394,7 @@ font-family: 'KTFold-Regular';
 
   #right-half-img{
     width: 45%;
-    margin-left: 54%;
+    margin-left: 55%;
     margin-top: 150px;
     display: inline-block;
   }
