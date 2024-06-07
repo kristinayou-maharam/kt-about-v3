@@ -108,6 +108,7 @@ em{
     width: 100%;
     height: 200px;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 
@@ -434,6 +435,7 @@ font-family: 'KTFold-Regular';
 
   #scroll-container{
     overflow-x: hidden !important;
+    overflow-y: hidden;
     width: 100% !important;
   }
 
