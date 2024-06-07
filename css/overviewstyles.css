@@ -902,13 +902,4 @@ background-color: transparent;
           height: 5vh;
         }
 
-        .page-breaker{
-      display: none;
-      height: 0 !important;
-        }
-
-        .page-breaker-two{
-      display: none;
-      height: 0 !important;
-        }
       }
