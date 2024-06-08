@@ -746,12 +746,13 @@ background-color: transparent;
 
         @media only screen and (max-width: 576px) {
         
-          .pin-spacer{
-            height: 100vh;
+          
+          #horizontal-img-scroll-two{
+          margin-top: -20vh !important;
           }
 
-          #horizontal-img-scroll-two{
-          margin-top: 0 !important;
+          #moma-carousel{
+            margin-top: -50vh;
           }
 
           #horizontal-img-scroll-two img{
@@ -771,8 +772,8 @@ background-color: transparent;
           .callout-text-right{
             font-size: 18px;
             line-height: 1.3;
-            width: 100%;
-            margin-left: 0;
+            width: 80%;
+            margin-left: 10%;
             margin-top: 10vh;
             margin-bottom: 5vh;
           }
@@ -915,13 +916,22 @@ background-color: transparent;
         }
 
         .anni-carousel{
-          margin-top: 80px !important;
+          margin-top: -20px !important;
+        }
+
+        #sheila-carousel{
+          margin-top: -20px !important;
         }
 
         h6{
           width: 50%;
           font-size: 8px;
-          color: #4b4b4b;
+          color: #808080;
         }
+
+        #scroll-container-two{
+        height: 50vh !important;
+        }
+
 
       }
