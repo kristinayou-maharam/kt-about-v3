@@ -163,7 +163,7 @@ em{
     font-size: 14px;
     margin-top: 10px;
     display: block;
-    width: 100%;
+    width: 50%;
   }
 
   #caption-right{
@@ -476,12 +476,10 @@ font-family: 'KTFold-Regular';
 
   #full-width-carousel img{
     width: 100%;
-    height: 700px;
   }
 
   #moma-carousel img{
     width: 60%;
-    height: 480px;
   }
 
   #carousel-captions{
@@ -577,9 +575,6 @@ font-family: 'KTFold-Regular';
     width: 100%;
   }
 
-  .slick-carousel{
-    height: 650px;
-  }
 
   .slick-next::before, .slick-prev::before {
     color: rgb(0, 0, 0);
@@ -666,27 +661,16 @@ background-color: transparent;
         h2{
           font-size: 80px;
         }
-        
-        #horizontal-img-scroll{
-          height: 60vh;
 
-        }
-
-        #horizontal-img-scroll-two{
-          height: 65vh;
-        }
-
-        #scroll-seemore{
-          height: 20vh;
-          margin-top: 3vh;
-        }
-
-        #scroll-container{
-          max-height: 85vh !important;
-          overflow-y: hidden;
-        }
-        
         .callout-text{
+          font-size: 20px;
+          line-height: 1.3;
+          margin-top: 10vh !important;
+          width: 70%;
+          margin-bottom: 10vh;
+        }
+
+        .callout-text-right{
           font-size: 20px;
           line-height: 1.3;
           margin-top: 10vh;
@@ -694,53 +678,39 @@ background-color: transparent;
           margin-bottom: 10vh;
         }
 
-        .callout-text-right{
-          font-size: 24px;
-          line-height: 1.3;
-          width: 90%;
-          margin-left: 0;
-          margin-top: 10vh;
-          margin-bottom: 5vh;
+        #medium-img-left{
+          margin-top: 10vh !important;
         }
 
-        #full-width-carousel img{
-          height: 100%;
+        #medium-img-right{
+          margin-top: 10vh !important;
         }
 
         #full-width-carousel{
-          margin-bottom: 0;
+          margin-top: 10vh !important;
+          margin-bottom: 0 !important;
+        }
+
+        #left-half-img{
+          margin-top: 10vh !important;
+          margin-bottom: 0 !important;
+        }
+
+        #right-half-img{
+          margin-top: 10vh !important;
+          margin-bottom: 0 !important;
+        }
+
+        #section-header{
+          margin-top: 10vh !important;
+          margin-bottom: 70px !important;
+          height: 15vh;
         }
 
         #section-title{
           margin-top: 40px !important;
         }
 
-        #left-half-img{
-          margin-top: 5vh;
-        }
-
-        #medium-img-left{
-          margin-top: 0 !important;
-        }
-
-        #medium-img-right{
-          margin-top: 0 !important;
-        }
-
-        #full-width{
-          margin-bottom: 5vh;
-          margin-top: 5vh !important;
-        }
-
-        #section-header{
-          margin-top: 10vh !important;
-          height: 32vh;
-          display: block;
-        }
-
-        #right-half-img{
-          margin-top: 3vh;
-        }
 
       }
 
@@ -779,7 +749,7 @@ background-color: transparent;
           }
 
           .callout-margin{
-            margin-top: 45vh !important;
+            margin-top: 75vh !important;
           }
 
           h2{
@@ -819,7 +789,7 @@ background-color: transparent;
 
           #caption-right{
             width: 50% !important;
-            margin-left: 0;
+            margin-left: 0 !important;
             margin-top: 8px;
             font-size: 10px;
             line-height: 1.2;
@@ -852,6 +822,7 @@ background-color: transparent;
             width: 100%;
             margin-left: 0;
             margin-top: 10vh;
+            margin-bottom: 5vh;
             display: block;
           }
 
@@ -859,6 +830,7 @@ background-color: transparent;
             width: 100%;
             margin-left: 0;
             margin-top: 10vh;
+            margin-bottom: 5vh;
             display: block;
           }
 
@@ -921,16 +893,22 @@ background-color: transparent;
 
         #sheila-carousel{
           margin-top: -20px !important;
+          margin-bottom: 50vh !important;
         }
 
         h6{
           width: 50%;
           font-size: 8px;
-          color: #808080;
+          margin-left: 0 !important;
         }
 
         #scroll-container-two{
         height: 50vh !important;
+        }
+
+        #overlap-img{
+          margin-top: 10vh !important;
+          margin-bottom: 5vh !important;
         }
 
 
