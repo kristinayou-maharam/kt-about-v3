@@ -363,7 +363,7 @@
                 </div>
                 <div>
                 <img id="lastimg" src="./images/crown_hall.jpg">
-                <p id="caption" style="width: 70% !important;">Florence graduated from The Illinois Institute of Technology in 1941, where she studied architecture with Mies van der Rohe.<br><h6>Courtesy of Library of Congress, Prints & Photographs Division, Balthazar Korab Collection.</h6></p>
+                <p id="caption" style="width: 70% !important;">Florence graduated from The Illinois Institute of Technology in 1941, where she studied architecture with Mies van der Rohe.<br><h6 style="width: 50%;">Courtesy of Library of Congress, Prints & Photographs Division, Balthazar Korab Collection.</h6></p>
                 </div>
         
                 </div>
@@ -546,7 +546,7 @@
                     <p id="caption" style="width: 70% !important;">Suzanne Huguenin.<br><h6>Courtesy of Knoll Archives.</h6></p>
                     </div>
                 <div>
-                <img src="./images/nylon_homespun.jpg">
+                <img src="./images/nylon_homespun_2.jpg">
                 <p id="caption" style="width: 70% !important;">Nylon Homespun by Suzanne Huguenin, ca. 1958.</p>
                 </div>
                 </div>
@@ -620,17 +620,17 @@
 
             <div id="overlap-img" style="margin-top: 150px;">
                 <img id="right-half-img" class="parallaxImage reveal-image" src="./images/INSP_matter_8.jpg">
-                <p id="caption-right">Herbert Matter.  Advertisement for Knoll Associates, Inc. featuring Apples by Stig Lindberg, Sampe Stripe by Astrid Sampe, and Chinese Coins by Noémi Raymond, ca. 1948.<br><h6 style="margin-left: 51%;">Courtesy of Knoll Textiles.</h6></p>
+                <p id="caption-right">Herbert Matter.  Advertisement for Knoll Associates, Inc. featuring Apples by Stig Lindberg, Sampe Stripe by Astrid Sampe, and Chinese Coins by Noémi Raymond, ca. 1948.<br><h6 style="margin-left: 51%;">Courtesy of Knoll Archives.</h6></p>
                 </div>
 
              <div id="overlap-img" style="margin-top: -400px;">
             <img id="left-half-img" class="parallaxImage reveal-image" src="./images/drum_ad.jpg">
-            <p id="caption">Herbert Matter.  Advertisement for Knoll Associates, Inc. featuring Fibra and Triad by Eszter Haraszty, ca. 1954.<br><h6>Courtesy of Knoll Textiles.</h6></p>
+            <p id="caption">Herbert Matter.  Advertisement for Knoll Associates, Inc. featuring Fibra and Triad by Eszter Haraszty, ca. 1954.<br><h6>Courtesy of Knoll Archives.</h6></p>
              </div>
 
              <div id="overlap-img" style="margin-top: -380px;">
                 <img id="right-half-img" class="parallaxImage reveal-image" src="./images/KT-1202.jpg">
-                <p id="caption-right">Takaaki Matsumoto. Knoll Textiles envelope, 1985.<br><h6 style="margin-left: 51%;">Courtesy of Knoll Textiles.</h6></p>
+                <p id="caption-right">Takaaki Matsumoto. Knoll Textiles envelope, 1985.<br><h6 style="margin-left: 51%;">Courtesy of Knoll Archives.</h6></p>
                 </div>
             
 
@@ -669,7 +669,7 @@
 
             <div>
                 <img id="full-width-img" class="reveal-image" src="./images/fk-letter-1.jpg">
-                <p id="fullwidth-caption">Florence Knoll’s handwritten note to Coco Kim, Knoll director of communications,featuring swatches of Scotch Linen by Franz Lorenz, 1950 and Prestini by Toni Prestini, 1947. 
+                <p id="fullwidth-caption">Florence Knoll’s handwritten note to Coco Kim, Knoll director of communications, featuring swatches of Scotch Linen by Franz Lorenz, 1950 and Prestini by Toni Prestini, 1947. 
  
                 </p>
             </div>
@@ -709,7 +709,7 @@
                 <div>
                 <img id="right-half-img" src="./images/ballon_5.png">
                 <div id="sheila-caption" style="width: 60%; display: inline-flex;margin-left: 54%;">
-                <p id="caption" style="margin-left: -0.5vw;">Cato by Paul Maute in Fire Red. Photography by Nick Ballón, 2023.</p>
+                <p id="caption" style="margin-left: -0.5vw; width: 80% !important;">Cato by Paul Maute in Fire Red. Photography by Nick Ballón, 2023.</p>
                     </div>
                 </div>
     
@@ -870,7 +870,7 @@ gsap.registerPlugin(ScrollTrigger);
 ScrollTrigger.create({
             trigger: "#scroll-container",
             start: "top top",
-            end: "+=320vw", // Adjust based on the length of the scrollable content
+            end: "+=340vw", // Adjust based on the length of the scrollable content
             pin: true,
             anticipatePin: 1
         });
@@ -878,13 +878,13 @@ ScrollTrigger.create({
 let scrollContainer = document.getElementById("scroll-container");
 
 gsap.to("#horizontal-img-scroll", {
-    xPercent: -280,
-    x: () => "28vw",
+    xPercent: -217,
+    x: () => "30%",
     ease: "sine",
     scrollTrigger: {
         trigger:"#horizontal-img-scroll",
         start: "center center",
-        end: "+=280vw",
+        end: "+=340vw",
         scrub: true,
         pin: false,
         invalidateOnRefresh: true,
@@ -897,20 +897,20 @@ console.log(window.innerWidth);
 ScrollTrigger.create({
             trigger: "#scroll-container-two",
             start: "top top",
-            end: "+=340vw", // Adjust based on the length of the scrollable content
+            end: "+=400vw", // Adjust based on the length of the scrollable content
             pin: true,
             anticipatePin: 1
         });
 
 
 gsap.to("#horizontal-img-scroll-two", {
-    xPercent: -322,
-    x: () => "32vw",
+    xPercent: -320,
+    x: () => "38%",
     ease: "sine",
     scrollTrigger: {
         trigger:"#horizontal-img-scroll-two",
         start: "center center",
-        end: "+=320vw",
+        end: "+=400vw",
         scrub: true,
         pin: false,
         invalidateOnRefresh: true,

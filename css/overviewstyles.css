@@ -137,7 +137,7 @@ em{
     display: block;
     font-size: 12px;
     font-family: 'KTFold-Medium';
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 15px;
     width: 100%;;
   }
@@ -449,6 +449,7 @@ font-family: 'KTFold-Regular';
 
   #scroll-container-two{
     overflow-x: hidden !important;
+    overflow-y: hidden;
     width: 100% !important;
   }
   
@@ -464,15 +465,15 @@ font-family: 'KTFold-Regular';
   }
 
   #horizontal-img-scroll img{
-    height: 90%;
+    width: 35vw;
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 1.5vw;
   }
 
   #horizontal-img-scroll-two img{
-    height: 90%;
+    width: 35vw;
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 1.5vw;
   }
 
   #full-width-carousel{
