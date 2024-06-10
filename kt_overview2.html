@@ -878,7 +878,7 @@ ScrollTrigger.create({
 let scrollContainer = document.getElementById("scroll-container");
 
 gsap.to("#horizontal-img-scroll", {
-    xPercent: -217,
+    xPercent: -210,
     x: () => "30%",
     ease: "sine",
     scrollTrigger: {
@@ -891,8 +891,6 @@ gsap.to("#horizontal-img-scroll", {
         anticipatePin: 1
     }
 });
-
-console.log(window.innerWidth);
 
 ScrollTrigger.create({
             trigger: "#scroll-container-two",
