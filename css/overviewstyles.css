@@ -166,6 +166,14 @@ em{
     width: 50%;
   }
 
+  #fullwidth-carousel-caption{
+    font-family: 'KTFold-Regular';
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+    width: 95%;
+  }
+
   #caption-right{
     font-family: 'KTFold-Regular';
     font-size: 14px;
