@@ -942,8 +942,7 @@ ScrollTrigger.create({
             trigger: "#scroll-container",
             start: "top top",
             end: "+=2000", // Adjust based on the length of the scrollable content
-            pin: true,
-            anticipatePin: 1
+            pin: true
         });
 
 let scrollContainer = document.getElementById("scroll-container");
@@ -958,8 +957,7 @@ gsap.to("#horizontal-img-scroll", {
         end: "+=2200",
         scrub: true,
         pin: false,
-        invalidateOnRefresh: true,
-        anticipatePin: 1
+        invalidateOnRefresh: true
     }
 });
 
@@ -967,8 +965,7 @@ ScrollTrigger.create({
             trigger: "#scroll-container-two",
             start: "top top",
             end: "+=2200", // Adjust based on the length of the scrollable content
-            pin: true,
-            anticipatePin: 1
+            pin: true
         });
 
 
@@ -982,8 +979,7 @@ gsap.to("#horizontal-img-scroll-two", {
         end: "+=2000",
         scrub: true,
         pin: false,
-        invalidateOnRefresh: true,
-        anticipatePin: 1
+        invalidateOnRefresh: true
     }
 });
     
