@@ -95,6 +95,9 @@ em{
   display: block;
 }
 
+#section-title{
+  margin-top: 75px !important;
+}
 
 #fullwidth{
     width: 100%;
@@ -102,15 +105,6 @@ em{
     margin-top: 70px;
     margin-bottom: 0;
 }
-
-#scrolling-container{
-    margin-top: 140px;
-    width: 100%;
-    height: 200px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
 
   .callout-text{
     font-size: 34px;
@@ -317,90 +311,6 @@ font-family: 'KTFold-Regular';
   }
 
 
-  .one{
-    margin-top: 20px;
-  }
-
-  .two{
-    margin-top: 250px;  }
-
-  .three{
-    margin-top: 100px;
-  }
-
-  .four{
-    margin-top: 150px;
-  }
-
-  .five{
-    margin-top: 1050px;
-    display: block;
-  }
-
-  .six{
-    margin-top: 100px;
-  }
-
-  .seven{
-    margin-top: 200px;
-  }
-
-  .eight{
-    margin-top: 150px;
-  }
-
-  .nine{
-    margin-top: 150px;
-  }
-
-  .ten{
-    margin-top: 200px;
-  }
-
-  .collaborator{
-    width: 48%;
-    margin-top: 1vh;
-
-  }
-
-  #collaborator-portrait{
-    width: 100%;
-  }
-
-  #collaborator-description{
-    margin-top: 30px;
-    padding-left: 1vw;
-    padding-bottom: 5vh;
-    font-family: 'KTFold-Regular';
-    font-size: 18px;
-    line-height: 1.4;
-    width: 90%;
-  }
-
-  .two #half-width-img{
-    margin-top: -27vh;
-  }
-
-#earlycollaborators{
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    column-gap: 20px;
-    width: 320%;
-}
-
-  #collaborators-scroll{
-    margin-top: 0px;
-    width: 100%;
-    overflow-x: scroll;
-  }
-
-  #left-img-bleed{
-    width: 68%;
-    margin-right: 40% !important;
-    z-index: 10;
-    margin-top: 120px;
-  }
 
   #left-half-img{
     width: 46% !important;
@@ -445,6 +355,15 @@ font-family: 'KTFold-Regular';
     overflow-y: hidden;
   }
 
+  #mobile-horizontal-scroll::-webkit-scrollbar-track {
+    background-color: #ffffff;
+  }
+
+  #mobile-horizontal-scroll::-webkit-scrollbar-thumb {
+    background: #f99f00;
+    border-radius: 0;
+  }
+
   #mobile-scroll-container{
     display: none;
   }
@@ -482,7 +401,7 @@ font-family: 'KTFold-Regular';
 
   #horizontal-img-scroll-two{
     width: 100%;
-    height: 55vh;
+    height: 65vh;
     display: flex;
     flex-wrap: nowrap;
     position: relative;
@@ -697,6 +616,8 @@ background-color: transparent;
 
       @media only screen and  (max-width: 1256px) {
 
+
+
         h2{
           font-size: 80px;
         }
@@ -769,7 +690,7 @@ background-color: transparent;
 
         #mobile-scroll-container{
           display: block;
-          margin-bottom: 5vh;
+          margin-bottom: 15vh;
         }
         
         #mobile-horizontal-scroll{
@@ -790,6 +711,14 @@ background-color: transparent;
           display: none !important;
         }
 
+        #mobile-horizontal-scroll::-webkit-scrollbar-track {
+          display: none;
+        }
+      
+        #mobile-horizontal-scroll::-webkit-scrollbar-thumb {
+          background: #f99f00;
+          -webkit-border-radius: 0px;
+        }
 
       }
 
