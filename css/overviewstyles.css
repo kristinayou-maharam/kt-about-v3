@@ -823,6 +823,11 @@ background-color: transparent;
 
         @media only screen and (max-width: 576px) {
         
+
+          #section-title{
+            margin-top: 20px !important;
+            margin-bottom: 0 !important;
+          }
           #mobile-horizontal-scroll{
             height: 42vh;
           }
