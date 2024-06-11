@@ -465,13 +465,13 @@ font-family: 'KTFold-Regular';
   }
 
   #horizontal-img-scroll img{
-    height: 70%;
+   height: 95%;
     display: inline-block;
     margin-right: 1.5vw;
   }
 
   #horizontal-img-scroll-two img{
-    width: 25vw;
+   height: 95%;
     display: inline-block;
     margin-right: 1.5vw;
   }
@@ -722,7 +722,9 @@ background-color: transparent;
 
         #section-title{
           margin-top: 40px !important;
+          margin-bottom: 0 !important;
         }
+
         #overlap-img{
           margin-bottom: 5vh !important;
         }
@@ -904,7 +906,7 @@ background-color: transparent;
 
           #full-width{
             width: 100%;
-            margin-top: 5vh !important;
+            margin-top: 0vh !important;
             margin-bottom: 0;
             display: block;
           }

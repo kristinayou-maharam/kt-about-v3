@@ -870,7 +870,7 @@ gsap.registerPlugin(ScrollTrigger);
 ScrollTrigger.create({
             trigger: "#scroll-container",
             start: "top top",
-            end: "+=340vw", // Adjust based on the length of the scrollable content
+            end: "+=2000", // Adjust based on the length of the scrollable content
             pin: true,
             anticipatePin: 1
         });
@@ -878,13 +878,13 @@ ScrollTrigger.create({
 let scrollContainer = document.getElementById("scroll-container");
 
 gsap.to("#horizontal-img-scroll", {
-    xPercent: -210,
+    xPercent: -270,
     x: () => "30%",
-    ease: "sine",
+    ease: "none",
     scrollTrigger: {
         trigger:"#horizontal-img-scroll",
         start: "center center",
-        end: "+=600vh",
+        end: "+=2000",
         scrub: true,
         pin: false,
         invalidateOnRefresh: true,
@@ -895,20 +895,20 @@ gsap.to("#horizontal-img-scroll", {
 ScrollTrigger.create({
             trigger: "#scroll-container-two",
             start: "top top",
-            end: "+=400vw", // Adjust based on the length of the scrollable content
+            end: "+=2000", // Adjust based on the length of the scrollable content
             pin: true,
             anticipatePin: 1
         });
 
 
 gsap.to("#horizontal-img-scroll-two", {
-    xPercent: -320,
-    x: () => "38%",
-    ease: "sine",
+    xPercent: -350,
+    x: () => "52vw",
+    ease: "none",
     scrollTrigger: {
         trigger:"#horizontal-img-scroll-two",
         start: "center center",
-        end: "+=400vw",
+        end: "+=2000",
         scrub: true,
         pin: false,
         invalidateOnRefresh: true,
