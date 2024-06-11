@@ -89,7 +89,7 @@ em{
 }
 
 #section-header{
-  margin-top: 140px;
+  margin-top: 0vh;
   margin-bottom: 20px;
   height: 200px;
   display: block;
@@ -402,10 +402,11 @@ font-family: 'KTFold-Regular';
   }
 
   #left-half-img{
-    width: 46%;
+    width: 46% !important;
     margin-top: 100px;
     display: inline-block;
   }
+
 
   #right-half-img{
     width: 46%;
