@@ -416,10 +416,10 @@ font-family: 'KTFold-Regular';
     display: inline-block;
   }
 
-
-  #half{
-    width: 50%;
-  }
+#section-header-img{
+  width: 100%;
+  margin-top: 150px;
+}
 
 
   #full-width{
@@ -717,6 +717,14 @@ background-color: transparent;
           margin-bottom: 5vh;
         }
 
+        #section-header-img{
+          margin-top: 0 !important;
+        }
+
+        #full-width{
+          margin-top: 0 !important;
+        }
+
         #medium-img-left{
           margin-top: 10vh !important;
         }
@@ -761,11 +769,11 @@ background-color: transparent;
 
         #mobile-scroll-container{
           display: block;
-          margin-bottom: 10vh;
+          margin-bottom: 5vh;
         }
-
+        
         #mobile-horizontal-scroll{
-          height: 70vh;
+          height: 78vh;
         }
 
         #mobile-horizontal-scroll img{
