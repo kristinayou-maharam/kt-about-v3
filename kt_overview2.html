@@ -717,7 +717,7 @@
 
             <div id="overlap-img" style="margin-top: -300px;">
             <img id="left-half-img" style="margin-top: 150px;" class="parallaxImage reveal-image" src="./images/fk-portrait-last.jpg">
-            <p id="caption"><h6>Courtesy of Knoll Archives.</h6></p>
+            <p id="caption">Florence Knoll.<h6>Courtesy of Knoll Archives.</h6></p>
             </div>
         
              
@@ -884,7 +884,7 @@ gsap.to("#horizontal-img-scroll", {
     scrollTrigger: {
         trigger:"#horizontal-img-scroll",
         start: "center center",
-        end: "+=340vw",
+        end: "+=600vh",
         scrub: true,
         pin: false,
         invalidateOnRefresh: true,
@@ -918,10 +918,10 @@ gsap.to("#horizontal-img-scroll-two", {
     
 
 ScrollReveal().reveal('#reveal-callout', {
-     duration: 2500
+     duration: 2000
     });
 ScrollReveal().reveal('.reveal-image', {
-     duration: 2500
+     duration: 2000
     });
 
 var parallax = document.getElementsByClassName('parallaxImage');
