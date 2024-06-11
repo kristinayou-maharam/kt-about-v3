@@ -329,6 +329,38 @@
                     
         
          
+                <div id="mobile-scroll-container">
+                    <p id="seemore">Scroll to see more →</p>
+                <div id="mobile-horizontal-scroll">
+                    <div>
+                        <img src="./images/c3_p.jpg">
+                        <p id="caption" style="width: 70% !important;">Florence at the Cranbrook Academy of Art, ca. 1933.<br><h6>Courtesy of Cranbrook Archives Digital Collection.</h6></p>
+                        </div>
+                        <div>
+                        <img src="./images/c2_p.jpg">
+                        <p id="caption" style="width: 70% !important;">The Cranbrook Academy of Art, ca. 1933.<br><h6>Courtesy of Cranbrook Archives Digital Collection.</h6></p>
+                        </div>
+                        <div>
+                        <img src="./images/c43_p.jpg">
+                        <p id="caption" style="width: 70% !important;">Knoll collaborators, Eero Saarinen and Charles Eames, at Cranbrook, ca. 1941. <br><h6>Courtesy of Cranbrook Archives Digital Collection.</h6></p>
+                        </div>
+                        <div>
+                        <img src="./images/florence_cranbrook.jpg">
+                        <p id="caption" style="width: 70% !important;">Florence and Hans Knoll with Nordiska Kompaniet business associates in Sweden, ca. 1946. <br><h6>Courtesy of Cranbrook Archives Digital Collection.</h6></p>
+                        </div>
+                        <div>
+                        <img src="./images/florence_hans_saarinen_family.jpg">
+                        <p id="caption" style="width: 70% !important;">Florence and Hans Knoll with the Saarinen Family, ca. 1949. <br> <h6>Courtesy of Cranbrook Archives Digital Collection.</h6></em></p>
+                        </div>
+                        <div>
+                        <img id="lastimg" src="./images/crown_hall.jpg">
+                        <p id="caption" style="width: 70% !important;">Florence graduated from The Illinois Institute of Technology in 1941, where she studied architecture with Mies van der Rohe.<br><h6 style="width: 50%;">Courtesy of Library of Congress, Prints & Photographs Division, Balthazar Korab Collection.</h6></p>
+                        </div>
+                
+                </div>
+                </div>
+
+
 
                 <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js'></script>
                 <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js'></script>
@@ -508,11 +540,49 @@
                     </div>
                 </div>
 
-            <div id="reveal-callout" class="callout-text callout-margin" style="margin-top: 320px;">
+            <div id="reveal-callout" class="callout-text" style="margin-top: 320px;">
                 Florence championed the practice of collaborating with—and crediting—the leading creative minds of the time, from weaver Anni Albers to graphic designer Herbert Matter. 
             </div>
 
             
+            <div id="mobile-scroll-container">
+                <p id="seemore">Scroll to see more →</p>
+            <div id="mobile-horizontal-scroll">
+                <div>
+                    <img src="./images/noemi_raymond.jpg">
+                    <p id="caption" style="width: 70% !important;">Noémi Raymond.<br><h6 style="width: 50%;">The Architectural Archives, University of Pennsylvania, David Leavitt Collection.</h6></p>
+                    </div>
+                    <div>
+                    <img src="./images/c119_p.jpg">
+                    <p id="caption" style="width: 70% !important;">Mosaic by Noémi Raymond, ca. 1950.</p>
+                    </div>
+                    <div>
+                    <img src="./images/ART410716.jpg">
+                    <p id="caption" style="width: 70% !important;">Lazy Lines by Astrid Sampe, ca. 1953.<br><h6>Digital Image © The Museum of Modern Art/Licensed by SCALA / Art Resource, NY. </h6></p>
+                    </div>
+                    <div>
+                    <img src="./images/K18274 2.jpg">
+                    <p id="caption" style="width: 70% !important;">Striae Stripe, introduced in 2015 by Knoll Textiles, references Rugby by Astrid Sampe, ca. 1955.</p>
+                    </div>
+                    <div>
+                    <img src="./images/haratzy.jpg">
+                    <p id="caption" style="width: 70% !important;">Eszter Haraszty.<br><h6>Courtesy of Knoll Archives.</h6></p>
+                    </div>
+                    <div>
+                    <img src="./images/ART411007.jpg">
+                    <p id="caption" style="width: 70% !important;">Triad by Eszter Haraszty, ca. 1954. <br><h6>Digital Image © The Museum of Modern Art/Licensed by SCALA / Art Resource, NY. </h6></p>
+                    </div>
+                    <div>
+                        <img src="./images/suzanne_huguenin.jpg">
+                        <p id="caption" style="width: 70% !important;">Suzanne Huguenin.<br><h6>Courtesy of Knoll Archives.</h6></p>
+                        </div>
+                    <div>
+                    <img src="./images/nylon_homespun_2.jpg">
+                    <p id="caption" style="width: 70% !important;">Nylon Homespun by Suzanne Huguenin, ca. 1958.</p>
+                    </div>
+            </div>
+            </div>
+
                 <div id="scroll-container-two">
                     <div id="scroll-seemore">
                         </div>
@@ -662,7 +732,7 @@
     
             </div>
 
-            <div id="section-header" style="margin-top: 30vh;">
+            <div id="section-header" class="legacy-title" style="margin-top: 30vh;">
                 <div id="full-width-rule"></div>
                 <h2 id="section-title" style="margin-top: 80px; margin-bottom: 120px;">Legacy</h2>
             </div>
@@ -679,7 +749,7 @@
             </div>
 
 
-            <div id="overlap-img" class="anni-carousel" style="margin-top: -70px;z-index: 100;">
+            <div id="overlap-img" class="cato-carousel" style="margin-top: -70px;z-index: 100;">
                 <div>
             <img id="left-half-img" src="./images/catoblanket_A3467.jpg">
             <div id="anni-caption" style="width: 62%; display: inline-flex;">
@@ -968,7 +1038,20 @@ new ScrollMagic.Scene({
   .setTween(animationtwo)
   .addTo(controller);
 
-  $('.anni-carousel').slick({
+  $('.cato-carousel').slick({
+  infinite: true,
+  slidesToShow: 1, // Shows a three slides at a time
+  slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
+  arrows: true, // Adds arrows to sides of slider
+nextArrow: '.anni-nextarrow',
+prevArrow: '.anni-prevarrow',
+  dots: false, // Adds the dots on the bottom
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+
+$('.anni-carousel').slick({
   infinite: true,
   slidesToShow: 1, // Shows a three slides at a time
   slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
