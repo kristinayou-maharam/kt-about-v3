@@ -694,7 +694,7 @@ background-color: transparent;
         }
         
         #mobile-horizontal-scroll{
-          height: 78vh;
+          height: 100%;
         }
 
         #mobile-horizontal-scroll img{
@@ -766,9 +766,13 @@ background-color: transparent;
           font-size: 8px;
         }
 
+        #moma-carousel{
+          margin-top: 8vh;
+        }
+
         #mobile-scroll-container{
           display: block;
-          margin-bottom: 10vh;
+          margin-bottom: 0 !important;
         }
 
         #horizontal-img-scroll{
