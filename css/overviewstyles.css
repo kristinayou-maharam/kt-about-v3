@@ -704,17 +704,17 @@ background-color: transparent;
         .callout-text{
           font-size: 24px;
           line-height: 1.3;
-          margin-top: 10vh !important;
+          margin-top: 7vh !important;
           width: 70%;
-          margin-bottom: 10vh;
+          margin-bottom: 5vh;
         }
 
         .callout-text-right{
           font-size: 24px;
           line-height: 1.3;
-          margin-top: 10vh;
+          margin-top: 7vh;
           width: 70%;
-          margin-bottom: 10vh;
+          margin-bottom: 5vh;
         }
 
         #medium-img-left{
@@ -747,12 +747,39 @@ background-color: transparent;
         }
 
         #section-title{
-          margin-top: 20px !important;
+          margin-top: 40px !important;
           margin-bottom: 0 !important;
         }
 
         #overlap-img{
           margin-bottom: 5vh !important;
+        }
+
+        #arrows{
+          width: 120px;
+        }
+
+        #mobile-scroll-container{
+          display: block;
+          margin-bottom: 10vh;
+        }
+
+        #mobile-horizontal-scroll{
+          height: 70vh;
+        }
+
+        #mobile-horizontal-scroll img{
+          width: 42vw;
+           display: inline-block;
+           margin-right: 1.5vw;
+         }
+
+        #horizontal-img-scroll{
+          display: none;
+        }
+        
+        .pin-spacer{
+          display: none !important;
         }
 
 
