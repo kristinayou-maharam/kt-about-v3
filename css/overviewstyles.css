@@ -386,13 +386,13 @@ font-family: 'KTFold-Regular';
   #horizontal-img-scroll img{
    height: 95%;
     display: inline-block;
-    margin-right: 1.5vw;
+    margin-right: 15px;
   }
 
   #horizontal-img-scroll-two img{
    height: 95%;
     display: inline-block;
-    margin-right: 1.5vw;
+    margin-right: 15px;
   }
 
   #full-width-carousel{
