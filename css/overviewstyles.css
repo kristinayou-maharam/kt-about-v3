@@ -689,13 +689,16 @@ background-color: transparent;
           display: none !important;
         }
 
-        #mobile-horizontal-scroll::-webkit-scrollbar-track {
-          display: none;
+        .slick-controls-two{
+          margin-left: 4%;
         }
-      
-        #mobile-horizontal-scroll::-webkit-scrollbar-thumb {
-          background: #f99f00;
-          -webkit-border-radius: 0px;
+    
+        .slick-controls-three{
+          margin-left: 4%;
+        }
+
+        .slick-controls-four{
+          margin-left: 4%;
         }
 
       }
