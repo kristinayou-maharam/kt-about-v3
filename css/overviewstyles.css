@@ -358,12 +358,14 @@ font-family: 'KTFold-Regular';
     overflow-x: hidden !important;
     overflow-y: hidden;
     width: 100% !important;
+    display: block;
   }
 
   #scroll-container-two{
     overflow-x: hidden !important;
     overflow-y: hidden;
     width: 100% !important;
+    display: block;
   }
   
 
