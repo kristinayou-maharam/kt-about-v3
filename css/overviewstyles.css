@@ -788,6 +788,10 @@ background-color: transparent;
           letter-spacing: normal;
         }
 
+        #full-width-rule{
+          height: 7px;
+        }
+
         #section-header{
           margin-bottom: 0 !important;
         }
@@ -1094,6 +1098,10 @@ background-color: transparent;
 
         ::-webkit-scrollbar-thumb {
           display: none !important;
+        }
+
+        #full-width-rule{
+          height: 7px;
         }
 
       }
