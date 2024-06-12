@@ -663,7 +663,7 @@ background-color: transparent;
         }
 
         #arrows{
-          width: 120px;
+          width: 8vw !important;
         }
 
         #mobile-scroll-container{
@@ -909,7 +909,7 @@ background-color: transparent;
           
 
           #arrows{
-            width: 20vw;
+            width: 20vw !important;
           }
 
           #caption{
