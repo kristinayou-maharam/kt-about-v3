@@ -352,7 +352,7 @@ font-family: 'KTFold-Regular';
   }
 
   #scroll-item{
-    width: 50%;
+    width: 45%;
   }
 
 
@@ -385,13 +385,13 @@ font-family: 'KTFold-Regular';
   #horizontal-img-scroll img{
    height: 95%;
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 1.5vw;
   }
 
   #horizontal-img-scroll-two img{
    height: 95%;
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 1.5vw;
   }
 
   #full-width-carousel{
