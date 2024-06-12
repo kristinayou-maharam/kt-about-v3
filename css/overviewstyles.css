@@ -149,9 +149,9 @@ em{
     font-family: 'KTFold-Regular';
     font-size: 14px;
     margin-top: 10px;
-    display: inline-block;
     width: 35% !important;
   }
+
 
   #carousel-caption{
     font-family: 'KTFold-Regular';
@@ -351,8 +351,10 @@ font-family: 'KTFold-Regular';
     margin-bottom: 100px;
   }
 
+  #scroll-item{
+    width: 50%;
+  }
 
-  
 
   #scroll-container{
     overflow-x: hidden !important;
