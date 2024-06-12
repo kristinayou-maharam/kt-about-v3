@@ -753,6 +753,11 @@ background-color: transparent;
           line-height: 1.2;
         }
 
+        #fullwidth-carousel-caption{
+          font-size: 11px;
+          line-height: 1.2;
+        }
+
         #caption-right{
           font-size: 11px;
           line-height: 1.2;
@@ -1016,6 +1021,7 @@ background-color: transparent;
 
         #moma-carousel{
           height: 20vh;
+          margin-top: 5vh !important;
         }
 
         #moma-carousel img{
@@ -1064,7 +1070,7 @@ background-color: transparent;
 
         #sheila-carousel{
           margin-top: -20px !important;
-          margin-bottom: 45vh !important;
+          margin-bottom: 50vh !important;
         }
 
         h6{
